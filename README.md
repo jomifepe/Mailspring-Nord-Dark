@@ -5,7 +5,7 @@
 ![Screenshot](screenshot.png)
 
 # How to use:
-1. Clone this repo
+1. Clone or download this repository
 2. Launch Mailspring
 3. Go to `Edit > Install Theme...` and select the cloned folder
 4. Go to `Edit > Change Theme...` and select the installed theme
