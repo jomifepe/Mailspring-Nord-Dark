@@ -43,8 +43,99 @@ img.content-light {
 }
 
 #message-list .message-item-wrap .message-item-white-wrap {
+  background-color: #FFF;
   box-shadow: 0 0 0.5px rgba(255, 255, 255, 0.28),
     0 1px 1.5px rgba(255, 255, 255, 0.08);
+}
+
+div, p, span, i, input, select {
+  color: @nord6 !important;
+}
+
+#message-list .message-item-wrap.collapsed .message-item-area .collapsed-timestamp,
+#message-list .message-item-wrap.collapsed .message-item-area .collapsed-snippet,
+.collapsed-from,
+.message-participants .from-label,
+.message-participants .to-label,
+.message-participants .cc-label,
+.message-participants .bcc-label,
+span.participant-name.to-contact,
+.message-participants .from-contact,
+#message-list .footer-reply-area-wrap,
+#message-list .footer-reply-area-wrap img.content-mask,
+.thread-list .unread:not(.focused):not(.selected) .snippet,
+.draft-list .unread:not(.focused):not(.selected) .snippet,
+#message-list .message-header .message-time, 
+#message-list .message-header .message-indicator,
+.thread-list .participants.no-recipients,
+.draft-list .participants.no-recipients,
+.message-participants .expanded-participants .participant-primary,
+.message-participants .expanded-participants .from-contact .participant-secondary,
+#message-list .message-header .header-row .header-label,
+.message-participants .expanded-participants .participant-primary,
+#message-list .message-header .header-row,
+.button-dropdown .secondary-items .menu .item.selected {
+  color: @text-color-inverse-subtle !important;
+}
+
+.button-dropdown .primary-item,
+.button-dropdown .secondary-picker {
+  background: #FFF !important;
+}
+
+.button-dropdown .secondary-items {
+  background-color: #FFF !important;
+}
+
+.btn,
+.outline-view .item .item-count-box.alt-count {
+  color: #FFF !important;
+}
+
+.btn img.content-mask {
+  background-color: @accent-primary-dark;
+}
+
+.message-header div,
+.message-header span,
+.message-header p,
+.message-header i {
+  color: @text-color-inverse-subtle !important;
+}
+
+.attachment-number span,
+.download-all-action span {
+  color: @nord3 !important;
+}
+
+.outline-view .item.selected div,
+.outline-view .item.selected i {
+  color: @accent-primary-dark !important;
+}
+
+.tokenizing-contenteditable .layer-tokens span.layer-token,
+.suggestions .suggestion-token {
+  color: @nord8 !important;
+}
+
+.composer-inner-wrap .composer-action-bar-wrap .btn.btn-toolbar:not(.btn-emphasis) img.content-mask {
+  background-color: @nord3 !important;
+}
+
+.composer-inner-wrap .composer-action-bar-wrap .btn.btn-toolbar:not(.btn-emphasis):hover img.content-mask {
+  background-color: @nord4 !important;
+}
+
+.composer-inner-wrap .composer-action-bar-wrap .btn.btn-toolbar:not(.btn-emphasis).btn-enabled img.content-mask {
+  background-color: @nord14 !important;
+}
+
+.button-dropdown.btn-emphasis .primary-item img.content-mask {
+  background-color: @nord4 !important;
+}
+
+.button-dropdown .primary-item .text {
+  color: @nord4 !important;
 }
 
 //.thread-list .list-item:not(.unread):not(.selected):not(.focused) {

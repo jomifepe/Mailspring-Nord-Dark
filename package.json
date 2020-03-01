@@ -3,7 +3,7 @@
   "title": "Nord Dark",
   "displayName": "Nord Dark",
   "theme": "ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A dark colorscheme based on Nord",
   "license": "GPL-3.0",
   "engines": {
