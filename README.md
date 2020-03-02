@@ -11,4 +11,4 @@
 4. Go to `Edit > Change Theme...` and select the installed theme
 
 # Notes:
-- The message area has a white background because it's looks the best with HTML formatted emails
+- The message area has a white background because it's looks best with HTML formatted emails
